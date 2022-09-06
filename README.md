@@ -1,5 +1,7 @@
 # autograd
-A tiny from scratch autograd implementation for learning purposes. Inspired by [karpathy/micrograd](https://github.com/karpathy/micrograd) and [geohot/tinygrad](https://github.com/geohot/tinygrad).
+A tiny from scratch [reverse mode autodiff](https://en.wikipedia.org/wiki/Automatic_differentiation#Reverse_accumulation) implementation for learning purposes. 
+
+Inspired by [karpathy/micrograd](https://github.com/karpathy/micrograd) and [geohot/tinygrad](https://github.com/geohot/tinygrad).
 
 ----
 
