@@ -21,3 +21,9 @@ cc_library(
     strip_prefix = "fmt-9.1.0",
     url = "https://github.com/fmtlib/fmt/releases/download/9.1.0/fmt-9.1.0.zip",
 )
+
+http_archive(
+    name = "com_google_googletest",
+    strip_prefix = "googletest-0e0d9feefab1b51aaab9dfd70132e93c0b6964e5",
+    urls = ["https://github.com/google/googletest/archive/0e0d9feefab1b51aaab9dfd70132e93c0b6964e5.zip"],
+)
